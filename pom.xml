@@ -20,6 +20,7 @@
     <modules>
         <module>main</module>
         <module>login</module>
+        <module>common</module>
     </modules>
 
     <properties>
