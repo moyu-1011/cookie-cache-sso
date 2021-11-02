@@ -1,0 +1,15 @@
+### 测试JwtFilter
+POST http://localhost:8080/greeting
+Authorization: Bearer {your_token}
+
+{"name": "99", "id":  "22659264"}
+### 注册请求
+POST http://localhost:8080/authorize/register
+Content-Type: application/json
+
+{"username": "xxx", "password": "1Aad.sawdabcd", "matchPassword": "1Aad.sawdabcd", "name": "moyu"}
+### 请求token
+POST http://localhost:8080/authorize/token
+Content-Type: application/json
+
+{"username": "moyu", "password": "1Aad.sawda"}
